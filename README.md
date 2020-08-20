@@ -37,7 +37,7 @@ git config --global user.email "kalle@ntig.se"
 3. När installationen är klar, logga in med ditt GitHub-konto på GitHub Desktop.
 4. Du behöver nu skaffa dig ett så kallat repo, som är stället där alla dina filer och kod hamnar.
 
-![img](https://gyazo.com/399b549c039f52d5c2700a83fa142eff.png)
+![img](assets/skapa_repo.png)
 
 5. Använd ditt användarnamn i GitHub för enkelhetens skull
 
