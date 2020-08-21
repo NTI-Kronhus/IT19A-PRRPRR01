@@ -2,60 +2,26 @@
 Följ stegen nedan i rätt ordning och var uppmärksam på detaljer
 ```
 
-## Skapa konto på GitHub
-1. Skapa ett konto på GitHub <a href="https://github.com/join" target="_blank">här</a>.
-2. Maila sedan ditt fullständiga namn samt användarnamn på GitHub till: [kokchun.giang@ntig.se](mailto:kokchun.giang@ga.ntig.se) <br> 
-  Sätt titeln på mailet till GitHub följt av namnet på din klass!
-
-   Exempel:
-   
-```markdown
-Till: kokchun.giang@ga.ntig.se
-Ämne: GitHub IT18A
-
-Namn: Niklas Hjelm
-Användarnamn: NiklasHj
-```
-
 ## Ladda hem Git till Windows
 1. Ladda hem och installera Git till Windows <a href="https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe" target="_blank">här</a>.
 2. Starta exe-filen och **klicka bara på nästa**. <br>
     Du behöver INTE ändra förvalda inställningar.
-3. När installationen är klar, **starta Git Bash**. <br>
-![img](https://i.gyazo.com/2dcc1024ae4e608aa920532854bba92d.png)
-4. Skriv in in din mail och användarnamn i konsolen på följande vis:<br>
 
-```markdown
-git config --global user.name "Kalle" 
-git config --global user.email "kalle@ntig.se" 
-```
+## Skapa konto på GitHub
+1. Skapa ett konto på GitHub och använd skolmailet: förnamn.efternamn@elev.ga.ntig.se <a href="https://github.com/join" target="_blank">här</a>.
+2. Skapa ditt första repo 
+![img](assets/repo1.png)
 
+![img](assets/repo2.png)
+3. Ladda ned/alternativt öppna Github desktop
+![img](assets/github_desktop_download.png)
 
-## Ladda hem GitHub Desktop
-1. Ladda hem och installera GitHub Desktop <a href="https://central.github.com/deployments/desktop/desktop/latest/win32" target="_blank">här</a>.
-2. Starta exe-filen så kör installationen sig självt.
-3. När installationen är klar, logga in med ditt GitHub-konto på GitHub Desktop.
-4. Du behöver nu skaffa dig ett så kallat repo, som är stället där alla dina filer och kod hamnar.
+4. Starta exe-filen så kör installationen sig självt.
 
-![img](assets/skapa_repo.png)
+5. När installationen är klar, logga in med ditt GitHub-konto på GitHub Desktop.
 
-5. Använd ditt användarnamn i GitHub för enkelhetens skull
+6. Gå in på Github, välj ditt repo och klicka på clone. Välj lämplig plats.
+![img](assets/klona_repo.png)
 
-![img](https://gyazo.com/c81f15b5132f9cdeab0f742aef69c9c0.png)
-
-6. I GitHub Desktop navigera nu till inställnigar <br>
-    *File->Options->Advanced* <br>
-    och välj Git Bash i drop-down fältet för Shell.<br>
-![img](assets/git_bash.png)
-
-7. Tryck på Publish Repository för att ditt repo ska komma upp på GitHub online.
-
-![img](https://gyazo.com/c37f79ef51ff1f14b3b2d9249702ca4f.png)
-
-8. VIKTIGT: Bocka ur "Keep this code private"!
-
-![img](https://gyazo.com/5c02447a718331d460b89284af45e8dc.png)
-
-9. För att det ska fungera felfritt måste du starta om din dator.
-
-10. Klart! 
+7. Klicka på open in visual studio code
+![img](assets/open_vsc.png)
