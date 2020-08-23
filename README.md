@@ -25,3 +25,5 @@ Följ stegen nedan i rätt ordning och var uppmärksam på detaljer
 
 7. Klicka på open in visual studio code
 ![img](assets/open_vsc.png)
+
+8. Nu ska du efter varje gång du jobbbat med din kod spara, trycka på commit och pusha så att du får en backup i Github.  
