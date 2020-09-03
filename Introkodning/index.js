@@ -30,15 +30,17 @@ sub.innerHTML = `subtraktion`
 // skapar variabel för knappen
 let button = document.querySelector("#knapp")
 
-// lägger till en eventlyssnare till knappen
+// lägger till en eventlyssnare till knappen som lyssnar på klick och kör funktionen math vid klick
 button.addEventListener("click", math)
 
 function math(event){
     console.log("math-funktionen körs")
 
+    // läser av textfälten och omvandlar till flyttal
     let num1 = parseFloat(document.querySelector("#number1").value)
     let num2 = parseFloat(document.querySelector("#number2").value)
 
+    // gör beräkningar med de fyra räknesätten
     add.innerHTML = `${num1}+${num2}=${num1+num2} `
     sub.innerHTML = `${num1}-${num2}=${num1-num2} `
     mult.innerHTML = `${num1}*${num2}=${num1*num2} `
