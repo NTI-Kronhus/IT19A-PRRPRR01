@@ -30,3 +30,4 @@ Följ stegen nedan i rätt ordning och var uppmärksam på detaljer
 
 ![img](assets/commit.png)
 ![img](assets/push.png)
+
