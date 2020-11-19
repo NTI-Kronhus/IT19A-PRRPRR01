@@ -5,10 +5,9 @@ let p_displayWords = document.querySelector("#displayWords")
 countWordBtn.addEventListener("click", countWords)
 
 function countWords(){
-    console.log("Kör funktionen countWords")
     let text = textArea.value 
     console.log(text)
-    let words = text.split(" ")
-    console.log(words.length)
+    let words = text.trim().split(" ")
+    console.log(words)
     p_displayWords.innerHTML = words.length
 }
