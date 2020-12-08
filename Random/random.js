@@ -1,5 +1,5 @@
 console.log("Random hej")
-let slumptal = Math.random()
+let slumptal = Math.random() // slumpmässigt tal mellan 0 och strikt mindre än 1 
 
 console.log(slumptal)
 
@@ -25,7 +25,7 @@ if (coinflip == 1){
 */ 
 let sexor = 0
 
-for (let i = 0; i < 1000000; i++){
+for (let i = 0; i < 100000; i++){
     let tärning = Math.floor(Math.random()*6)+1
 
     if (tärning == 6){
@@ -35,7 +35,7 @@ for (let i = 0; i < 1000000; i++){
 
 console.log(`Antalet sexor är: ${sexor}`)
 
-let andel = sexor/1000000
+let andel = sexor/100000
 console.log(andel)
 console.log(`Teoretisk sannolikhet ${1/6}`)
 
