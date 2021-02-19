@@ -9,7 +9,7 @@ function sayHello(){
 // anropar funktionen sayHello
 sayHello()
 sayHello()
-//console.log(`Min ålder är ${alder}`) - alder är inte synlig här
+//console.log(`Min ålder är ${alder}`) //- alder är inte synlig här
 
 function addera(tal1, tal2){
     let summa = tal1+tal2
@@ -36,3 +36,12 @@ function dividera(tal1,tal2){
 
 console.log(`35/7 = ${dividera(35,7)}`)
 console.log(`2/0 = ${dividera(2,0)}`)
+
+function cirkelArea(radie){
+    let area = Math.PI*radie**2
+    return area
+}
+
+let area10 = cirkelArea(10)
+// anropa cirkelArea: 
+console.log(`Arean av en cirkel med radie 10 l.e. är ${area10} a.e. `)
