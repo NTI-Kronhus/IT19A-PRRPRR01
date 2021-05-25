@@ -1,0 +1,12 @@
+#IT,
+#Media {
+  display: none;
+}
+
+button {
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.show {
+  display: block;
+}
